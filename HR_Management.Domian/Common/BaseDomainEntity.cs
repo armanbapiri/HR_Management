@@ -4,7 +4,7 @@ using System.Text;
 
 namespace HR_Management.Domian.Common
 {
-    public abstract class BaseDomainEntity
+    internal abstract class BaseDomainEntity
     {
         public int id { get; set; }
 

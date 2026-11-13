@@ -5,7 +5,7 @@ using System.Text;
 
 namespace HR_Management.Domian.Entities
 {
-    internal class LeaveRequest : BaseDomainEntity
+    public class LeaveRequest : BaseDomainEntity
     {
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }

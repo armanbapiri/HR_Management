@@ -5,7 +5,7 @@ using System.Text;
 
 namespace HR_Management.Domian.Entities
 {
-    internal class LeaveAllocation : BaseDomainEntity
+    public class LeaveAllocation : BaseDomainEntity
     {
         public int NumerOfDays { get; set; }
 
