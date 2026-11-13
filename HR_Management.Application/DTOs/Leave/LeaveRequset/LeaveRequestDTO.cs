@@ -1,11 +1,12 @@
-﻿using HR_Management.Domian.Common;
+﻿using HR_Management.Application.DTOs.Common;
+using HR_Management.Domian.Common;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace HR_Management.Domian.Entities
+namespace HR_Management.Application.DTOs.Leave.LeaveRequset
 {
-    public class LeaveRequest : BaseDomainEntity
+    public class LeaveRequestDTO : BaseDTO
     {
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
@@ -19,10 +20,9 @@ namespace HR_Management.Domian.Entities
         public bool? Canceled { get; set; }
 
 
-        #region Rellations
 
-        public LeaveType LeaveType { get; set; }
+        public LeaveTypeDTO LeaveType { get; set; }
         public int LeaveTypeId { get; set; }
-        #endregion
+        
     }
 }

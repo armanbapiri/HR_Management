@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace HR_Management.Domian.Entities
+namespace HR_Management.Domian.Entities.Leave
 {
     public class LeaveAllocation : BaseDomainEntity
     {
