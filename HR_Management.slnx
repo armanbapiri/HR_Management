@@ -1,1 +1,8 @@
-<Solution />
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/API/" />
+  <Folder Name="/src/Core/" />
+  <Folder Name="/src/Infrastructure/" />
+  <Folder Name="/src/Ui/" />
+  <Folder Name="/test/" />
+</Solution>
