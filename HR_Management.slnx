@@ -1,7 +1,9 @@
 <Solution>
   <Folder Name="/src/" />
   <Folder Name="/src/API/" />
-  <Folder Name="/src/Core/" />
+  <Folder Name="/src/Core/">
+    <Project Path="HR_Management.Domian/HR_Management.Domian.csproj" Id="0321e37c-4f79-44d2-9b20-98b907502770" />
+  </Folder>
   <Folder Name="/src/Infrastructure/" />
   <Folder Name="/src/Ui/" />
   <Folder Name="/test/" />
